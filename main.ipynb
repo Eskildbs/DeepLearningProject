@@ -19,7 +19,7 @@ joblist.run(train=True, save_model=True, save_test_output=False,
 
 """ Predicting using a trained model model """
 # Note that this can only be done, when a model is trained or when the model is downloaded.
-# The used model can be downloaded here:
+# The used model can be downloaded here: https://1drv.ms/u/s!AnbtOeX1RnufhLpQPWd6YxeWmSJK2g?e=zFIHsy
 # This folder ("Full_Segnet_3filter_LowDecay_LowBatch") must replace the exciting folder in "models".
 # Afterwards the following code can be uncommented to segment the images placed in the folder "test_images".
 # The different test images can be downloaded here: https://1drv.ms/u/s!AnbtOeX1Rnufg8xhgwIQDhv6Al73FA?e=qdD03j
