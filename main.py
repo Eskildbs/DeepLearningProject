@@ -10,7 +10,7 @@ classes = {0: 'background', 1: 'weed', 2: 'corn'}
 # Loading joblist
 joblist = Joblist.Joblist('Joblist_GPU', output_path)
 joblist.set_parameters(log_every=1000, stopping_criteria=Corn_segmentation.No_stopping_criteria(),
-                       batch_size=20, max_iter=40000, LEARNING_RATE=1E-5, weight_decay=0.001)
+                       batch_size=8, max_iter=40000, LEARNING_RATE=1E-5, weight_decay=0.001)
 
 joblist.set_data(annotated_path=anno_path, test_path=test_path, class_dict=classes,
                  data_augmentation=True)
